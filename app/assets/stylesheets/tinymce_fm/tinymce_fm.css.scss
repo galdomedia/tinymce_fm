@@ -1,0 +1,37 @@
+.tinymce_manager_folder {
+  background-image: image_url('tinymce_fm/folder.png');
+  margin: 4px;
+}
+
+.tinymce_manager_folder:hover {
+  background-image: image_url('tinymce_fm/folder_hover.png');
+}
+
+.tinymce_manager_object {
+  border: 0 none;
+  margin: 4px;
+}
+
+.tinymce_manager_object:hover {
+  border: 0 none;
+  margin: 0;
+}
+
+.tinymce_manager_object_unknown {
+  background-image: image_url('tinymce_fm/media_object.png');
+  border: 0 none;
+  margin: 4px;
+}
+
+.tinymce_manager_object_unknown:hover {
+  background-color: white;
+}
+
+.tinymce_manager_navi_bar {
+  text-align: center;
+  color: green;
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+
+}
