@@ -129,4 +129,12 @@ for "pages" controller
 - tests!
 
 
-Copyright (c) 2011 Galdomedia, Leszek Smentek, released under the MIT license
+== Special Thanks
+
+- {Leszek Smentek}[https://github.com/lechu] for initial work
+- {Maciej Litwiniuk}[https://github.com/mlitwiniuk] for all contribution
+- {Piotr Boniecki}[https://github.com/bonias] for making this Rails 3 compatible
+- {Matenia Rossides}[https://github.com/matenia] for some cleanup work
+
+
+Copyright (c) 2011 Galdomedia, Leszek Smentek and Maciej Litwiniuk, released under the MIT license
