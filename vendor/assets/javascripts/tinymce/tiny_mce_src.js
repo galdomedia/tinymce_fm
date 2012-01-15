@@ -60,7 +60,6 @@
 			}
 
 			function getBase(n) {
-			  console.log(n);
 				if (n.src && ( /tiny_mce(|_gzip|_jquery|_prototype|_full)(_dev|_src)?.js/.test(n.src) || /assets\/tinymce_fm\/application\-?.*\.js/.test(n.src) )) {
 					if (/_(src|dev)\.js/g.test(n.src))
 						t.suffix = '_src';
@@ -71,7 +70,7 @@
 					t.baseURL = n.src.substring(0, n.src.lastIndexOf('/'));
 					
 					// HACK: dirty, dirty hack
-					if ( /assets\/tinymce_fm\/application.js/.test(n.src) )
+					if ( /assets\/tinymce_fm\/application\-?.*\.js/.test(n.src) )
 					  t.baseURL = "assets/tinymce"
 
 					// If path to script is relative and a base href was found add that one infront
