@@ -71,7 +71,7 @@
 					
 					// HACK: dirty, dirty hack
 					if ( /assets\/tinymce_fm\/application\-?.*\.js/.test(n.src) )
-					  t.baseURL = "assets/tinymce"
+					  t.baseURL = "/assets/tinymce"
 
 					// If path to script is relative and a base href was found add that one infront
 					// the src property will always be an absolute one on non IE browsers and IE 8
