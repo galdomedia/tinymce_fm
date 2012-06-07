@@ -12,7 +12,7 @@ If you want, you can also manage multimedia files (ie. videos), but then you wil
 
 1. Add gem to you Gemfile:
 
-    gem 'tinymce_fm', :git=>"git://github.com/galdomedia/tinymce_fm.git"
+    gem 'tinymce_fm'
 
 2. Add Engine to routes.rb file:
     
