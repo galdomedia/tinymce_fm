@@ -6,7 +6,7 @@ It will be published as official gem after some tests, etc.
 
 == Installation
 
-This plugin requires mini_magic gem to work (so also - imagemagick binaries installed on server).
+This plugin requires mini_magick gem to work (so also - imagemagick binaries installed on server).
 
 If you want, you can also manage multimedia files (ie. videos), but then you will need to have ffmpeg installed on your machine (thumb generation).
 
